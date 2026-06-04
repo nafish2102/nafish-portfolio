@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500" role="img" aria-label="Yatara project cover">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c1d95"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <text x="48" y="260" fill="#f4f4f5" font-family="system-ui,sans-serif" font-size="56" font-weight="700">Yatara</text>
+  <text x="48" y="310" fill="#e4e4e7" font-family="system-ui,sans-serif" font-size="22" font-weight="500">Insurance Management</text>
+</svg>
