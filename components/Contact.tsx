@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { Icon } from "@iconify/react";
 import { Download, Link2, Mail, MapPin } from "lucide-react";
 import {
   btnPrimary,
@@ -17,6 +18,7 @@ import {
 
 const CONTACT = {
   email: "mo.nafish786@gmail.com",
+  mobile: "+91 9131312692",
   linkedin: "https://linkedin.com/in/nafish0202",
   location: "Indore, Madhya Pradesh, India",
   resume: "/files/Mohd_Nafish_Frontend_Resume.pdf",
@@ -27,7 +29,7 @@ const CONTACT = {
 type ContactLink = {
   label: string;
   value: string;
-  icon: typeof Mail;
+  icon: string;
   href?: string;
   external?: boolean;
 };
@@ -37,19 +39,25 @@ const LINKS: ContactLink[] = [
     label: "Email",
     value: CONTACT.email,
     href: `mailto:${CONTACT.email}`,
-    icon: Mail,
+    icon: "mdi:email-outline",
+  },
+  {
+    label: "Mobile",
+    value: CONTACT.mobile,
+    href: "tel:+919131312692",
+    icon: "mdi:phone-outline",
   },
   {
     label: "LinkedIn",
     value: "linkedin.com/in/nafish0202",
     href: CONTACT.linkedin,
-    icon: Link2,
+    icon: "mdi:linkedin",
     external: true,
   },
   {
     label: "Location",
     value: CONTACT.location,
-    icon: MapPin,
+    icon: "mdi:map-marker-outline",
   },
 ];
 
@@ -86,10 +94,13 @@ export default function Contact() {
           viewport={motionViewport}
           transition={{ ...motionTransition, delay: 0.05 }}
         >
-          {LINKS.map(({ label, value, href, icon: Icon, external }) => {
+          {LINKS.map(({ label, value, href, icon, external }) => {
             const content = (
               <>
-                <Icon className="h-4 w-4 shrink-0 text-violet-600 dark:text-violet-400" />
+               <Icon
+                  icon={icon}
+                  className="h-5 w-5 shrink-0 text-violet-600 dark:text-violet-400"
+                />
                 <span>
                   <span className="block text-xs text-zinc-500">{label}</span>
                   <span className="text-sm font-medium text-zinc-900 dark:text-zinc-100">

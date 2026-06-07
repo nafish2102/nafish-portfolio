@@ -12,8 +12,7 @@ import {
 } from "@/lib/ui";
 
 const SUMMARY =
-  "Sr. UI/UX Developer and Frontend Developer with 7+ years of experience building responsive, scalable web applications using React.js, Next.js, Tailwind CSS, and Bootstrap. Experienced across LMS, Healthcare SaaS, Insurance, Trading, E-Commerce, and enterprise dashboards at Chapter247 Infotech.";
-
+  "Senior UI/UX Developer and Frontend Developer with 7+ years of experience delivering responsive, scalable, and high-performance web applications. Skilled in Figma, React.js, Next.js, JavaScript, HTML5, CSS3, SCSS, Tailwind CSS, and Bootstrap, with expertise in translating designs into pixel-perfect user interfaces, building reusable component libraries, implementing scalable frontend architectures, integrating REST APIs, and creating intuitive user experiences. Proven track record of developing enterprise applications across Insurance, EdTech, Housing, Events, and E-Commerce domains.";
 export default function About() {
   return (
     <section

@@ -72,7 +72,7 @@ const EXPERIENCES: ExperienceEntry[] = [
       "Developed responsive website UI and optimized, user-friendly layouts.",
       "Contributed to multiple projects while building core frontend fundamentals.",
     ],
-    technologies: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery"],
+    technologies: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery", "Photoshop", "Illustrator", "Adobe XD"],
   },
 ];
 
@@ -138,7 +138,7 @@ export default function Experience() {
                 <ul className="mt-3 space-y-1.5 text-sm text-zinc-600 dark:text-zinc-300">
                   {job.highlights.map((item) => (
                     <li key={item} className="flex gap-2">
-                      <span className="text-violet-600 dark:text-violet-400">·</span>
+                      <span className="mt-1.5 h-1.5 w-1.5 rounded-full bg-violet-600 dark:bg-violet-400 shrink-0" />
                       {item}
                     </li>
                   ))}

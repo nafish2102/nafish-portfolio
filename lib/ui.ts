@@ -5,7 +5,7 @@ export const sectionLabel =
 export const sectionTitle =
   "mt-2 text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-3xl";
 export const sectionDesc =
-  "mt-2 max-w-2xl text-sm leading-relaxed text-zinc-600 dark:text-zinc-300";
+  "mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300";
 export const card =
   "rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900";
 export const badge =
