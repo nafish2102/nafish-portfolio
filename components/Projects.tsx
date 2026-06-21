@@ -39,6 +39,21 @@ const PROJECTS: Project[] = [
       "Scalable LMS interfaces for content-driven learning experiences.",
   },
   {
+    name: "Skillsome",
+    title: "EdTech Learning Platform",
+    domain: "Education",
+    url: "https://skillsome.com/",
+    techStack: ["WordPress", "HTML5", "CSS3", "SCSS", "Bootstrap", "JavaScript"],
+    highlights: [
+    "Developed responsive user interfaces for an educational platform using WordPress.",
+    "Implemented interactive animations and visual effects to enhance user engagement.",
+    "Converted design concepts into pixel-perfect, mobile-friendly web pages.",
+    "Optimized layouts and UI components for consistent cross-browser performance."
+    ],
+    impact:
+    "Improved user experience through modern UI design, responsive layouts, and engaging animations across the platform."
+  },
+  {
     name: "Yatara",
     title: "Insurance Management Platform",
     domain: "Insurance",
@@ -77,20 +92,7 @@ const PROJECTS: Project[] = [
     impact:
       "Delivered an engaging event booking experience with intuitive navigation and mobile-first design.",
   },
-  {
-    name: "Section 8 Housing",
-    title: "Housing Platform",
-    domain: "Housing",
-    url: "https://s8tracker.com/",
-    techStack: ["Laravel Livewire", "Bootstrap", "JavaScript"],
-    highlights: [
-      "Developed dashboard interfaces for housing program administration.",
-      "Built dynamic UI components to streamline application and approval workflows.",
-      "Ensured responsive user experiences across desktop and mobile devices.",
-    ],
-    impact:
-      "Usable housing dashboards for program management teams.",
-  },
+  
   {
     name: "URStore",
     title: "E-Commerce Platform",
