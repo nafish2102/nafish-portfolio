@@ -43,12 +43,11 @@ const PROJECTS: Project[] = [
     title: "EdTech Learning Platform",
     domain: "Education",
     url: "https://skillsome.com/",
-    techStack: ["WordPress", "HTML5", "CSS3", "SCSS", "Bootstrap", "JavaScript"],
+    techStack: ["HTML5", "CSS3", "SCSS", "Bootstrap", "JavaScript", "WordPress"],
     highlights: [
     "Developed responsive user interfaces for an educational platform using WordPress.",
     "Implemented interactive animations and visual effects to enhance user engagement.",
-    "Converted design concepts into pixel-perfect, mobile-friendly web pages.",
-    "Optimized layouts and UI components for consistent cross-browser performance."
+    "Converted design concepts into pixel perfect, mobile friendly web pages.",
     ],
     impact:
     "Improved user experience through modern UI design, responsive layouts, and engaging animations across the platform."
