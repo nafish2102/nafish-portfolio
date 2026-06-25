@@ -30,9 +30,11 @@ const EXPERIENCES: ExperienceEntry[] = [
     role: "Sr. UI/UX Developer / Frontend Developer",
     period: "Aug 2021 – Present",
     highlights: [
-      "Built responsive React.js and Next.js applications with reusable components and modern frontend architecture.",
-      "Integrated REST APIs with dynamic data rendering across LMS, Healthcare SaaS, Insurance, Trading, E-Commerce, and dashboards.",
-      "Collaborated with developers, QA, and stakeholders on production-ready UI delivery.",
+      "Designed and developed responsive user interfaces for SaaS, Insurance, Healthcare, LMS, Trading, and E-Commerce products.",
+      "Converted Figma designs into pixel-perfect, responsive, and cross-browser compatible web applications.",
+      "Built reusable UI components and contributed to scalable frontend architecture using React.js and Next.js.",
+      "Collaborated with product stakeholders, developers, and QA teams to deliver intuitive and user-friendly experiences.",
+      "Integrated REST APIs and implemented dynamic data rendering for interactive user experiences.",
     ],
     awards: [
       "Consistent Performer Award (2025)",
@@ -95,7 +97,7 @@ export default function Experience() {
             Work History
           </h2>
           <p className={sectionDesc}>
-            7+ years from web design to senior UI/UX and frontend development.
+            Progressive growth from Web Designer to Senior UI/UX and Frontend Developer across SaaS, EdTech, Insurance, Healthcare, and E-Commerce products.
           </p>
         </motion.div>
 

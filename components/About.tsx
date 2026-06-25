@@ -12,7 +12,7 @@ import {
 } from "@/lib/ui";
 
 const SUMMARY =
-  "Senior UI/UX Developer and Frontend Developer with 7+ years of experience delivering responsive, scalable, and high-performance web applications. Skilled in Figma, React.js, Next.js, JavaScript, HTML5, CSS3, SCSS, Tailwind CSS, and Bootstrap, with expertise in translating designs into pixel-perfect user interfaces, building reusable component libraries, implementing scalable frontend architectures, integrating REST APIs, and creating intuitive user experiences. Proven track record of developing enterprise applications across Insurance, EdTech, Housing, Events, and E-Commerce domains.";
+  "Senior UI/UX Developer and Frontend Developer with experience designing and developing user centered digital products across SaaS, Insurance, Healthcare, LMS, Trading, and E-Commerce domains. Skilled in Figma, wireframing, prototyping, design systems, responsive design, accessibility, and frontend implementation using HTML, CSS, JavaScript, React.js, and Next.js.";
 export default function About() {
   return (
     <section

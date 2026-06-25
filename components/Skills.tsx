@@ -1,10 +1,7 @@
 "use client";
 
-import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import {
-  badge,
-  card,
   container,
   motionTransition,
   motionViewport,
@@ -15,6 +12,19 @@ import {
 } from "@/lib/ui";
 
 const SKILL_CATEGORIES = [
+  {
+    title: "UX/UI Design",
+    skills: [
+      "Figma",
+      "Wireframing",
+      "Prototyping",
+      "User Flows",
+      "User Journey Mapping",
+      "Design Systems",
+      "Accessibility",
+      "Responsive Design",
+    ],
+  },
   {
     title: "Frontend",
     skills: [
@@ -31,21 +41,29 @@ const SKILL_CATEGORIES = [
   },
   {
     title: "Tools",
-    skills: ["Git", "GitHub", "Jira", "Notion", "Trello", "Figma", "Canva", "Postman", "VS Code", "Cursor", "AI-assisted Debugging"],
-  },
-  {
-    title: "Database",
-    skills: ["MongoDB", "MySQL"],
+    skills: [
+      "Git",
+      "GitHub",
+      "Jira",
+      "Trello",
+      "Figma",
+      "Postman",
+      "VS Code",
+      "Cursor",
+      "Canva",
+    ],
   },
   {
     title: "Concepts",
     skills: [
+      "User Centered Design",
       "Responsive Design",
-      "API Integration",
       "Reusable Components",
-      "Dynamic Data Rendering",
+      "Accessibility",
+      "Cross Browser Compatibility",
       "Component Architecture",
-      "Cross-Browser Compatibility",
+      "API Integration",
+      "Design Systems",
     ],
   },
 ];

@@ -14,13 +14,12 @@ import {
 
 const PROFILE = {
   name: "Mohd Nafish",
-  role: "Senior UI/UX Developer | Frontend Developer",
-  experience: "7+ years",
-  location: "Indore, Madhya Pradesh, India",
+  role: "Senior UI/UX Developer | Product Designer | Frontend Developer",
+  experience: "UI/UX Designer • Frontend Developer • Figma • React.js • Next.js",
   headline:
-    "Building scalable, responsive, user-centric web apps with React.js and Next.js.",
+    "Designing intuitive user experiences and building scalable digital products with Figma, HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, React.js, and Next.js.",
   image: "/images/profile.png",
-  resume: "/files/Mohd_Nafish_Frontend_Resume.pdf",
+  resume: "/files/Mohd-Nafish-UI-Developer-Resume.pdf",
 } as const;
 
 function scrollToProjects() {
@@ -39,7 +38,7 @@ export default function Hero() {
           transition={motionTransition}
         >
           <p className="text-sm text-zinc-600 dark:text-zinc-400">
-            {PROFILE.experience} · {PROFILE.location}
+            {PROFILE.experience}
           </p>
           <h1 className="mt-3 text-3xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-4xl">
             Hi, I&apos;m{" "}

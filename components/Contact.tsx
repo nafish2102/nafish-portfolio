@@ -21,7 +21,7 @@ const CONTACT = {
   mobile: "+91 9131312692",
   linkedin: "https://linkedin.com/in/nafish0202",
   location: "Indore, Madhya Pradesh, India",
-  resume: "/files/Mohd_Nafish_Frontend_Resume.pdf",
+  resume: "/files/Mohd-Nafish-UI-Developer-Resume.pdf",
   mailto:
     "mailto:mo.nafish786@gmail.com?subject=Let's%20Connect%20%E2%80%94%20Portfolio",
 } as const;
