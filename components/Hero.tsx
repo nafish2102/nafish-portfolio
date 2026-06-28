@@ -19,7 +19,7 @@ const PROFILE = {
   headline:
     "Designing intuitive user experiences and building scalable digital products with Figma, HTML, CSS, Bootstrap, Tailwind CSS, JavaScript, React.js, and Next.js.",
   image: "/images/profile.png",
-  resume: "/files/Mohd-Nafish-UI-Developer-Resume.pdf",
+  resume: "/files/Mohd_Nafish_UI_Frontend_Developer_Resume.pdf",
 } as const;
 
 function scrollToProjects() {
